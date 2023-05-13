@@ -28,7 +28,14 @@ const account4 = {
   pin: 4444,
 };
 
-const accounts = [account1, account2, account3, account4];
+const account5 = {
+  owner: "Pankaj Gupta",
+  movements: [500, 400, -100, 1000, 599, 350, -200, 1500],
+  interestRate: 0.6, // %
+  pin: 6666,
+};
+
+const accounts = [account1, account2, account3, account4, account5];
 
 // Elements
 const labelWelcome = document.querySelector(".welcome");
